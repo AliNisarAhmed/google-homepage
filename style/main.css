@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+}
+
+.header {
+  list-style-type: none;
+  position: top;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
+  display: inline-block;
+
+}
+
+.header .header-right {
+  display: inline-block;
+  text-align: right;
+  float: right;
+  padding: 8px;
+
+ }
+.header .header-left {
+  display: inline-block;
+  padding: 6px;
+}
+
+.logo-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.logo {
+  text-align: center;
+  display: inline-block;
+}
