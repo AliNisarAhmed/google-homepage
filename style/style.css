@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*_______________________________________________________________
+
+BODY
+
+_________________________________________________________________
+*/
+
+body {
+	width: 100%;
+	font-family: arial, sans-serif;
+}
+
+
+/*_______________________________________________________________
+
+CENTER
+
+_________________________________________________________________
+*/
+
+.center {
+	display: block;
+}
+
+
+/*_______________________________________________________________
+
+HEADER
+_________________________________________________________________
+*/
+
+header {
+	position: relative;
+	top: 2px;
+	width: 100%;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 8px;
+	margin-bottom: 0;
+	display: inline;
+	font-size: 16px;
+	vertical-align: middle;
+	line-height: 20px;
+	font-size: 13px;
+}
+
+.left:hover {
+	text-decoration: underline;
+}
+
+.right:hover {
+	text-decoration: underline;
+}
+
+header .left {
+	float: left;
+	color: black;
+	margin: 6px;
+	padding: 8px 4px 1px 10px;
+	text-decoration: none;
+	opacity: 0.75;
+}
+
+header .right {
+	float: right;
+	color: black;
+	margin: 6px;
+	padding: 8px 10px 1px 4px;
+	text-decoration: none;
+}
+
+/*_______________________________________________________________
+
+LOGO
+_________________________________________________________________
+*/
+
+.logo {
+	display: block;
+	position: relative;
+	width: 429px;
+	top: 150px;
+	margin: 0 auto;
+	
+	padding: 0;
+}
+
+/*_______________________________________________________________
+
+SEARCH BOX
+_________________________________________________________________
+*/
+
+.search-box {
+	display: block;
+	
+	top: 150px;
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+	
+}
+
+.box {
+	left: 100px;
+	margin: auto;
+	width: 500px;
+	height: 35px;
+	box-shadow: 2px;
+	border: 1px solid silver;
+	border-style: thin;
+	box-shadow: 0 1px 10px silver;
+}
+
+.box:hover {
+	box-shadow: 0 4px 10px silver;
+}
+
+/*_______________________________________________________________
+
+MIC LOGO
+_________________________________________________________________
+*/
+
+.search-box .mic {
+	display: inline-block;
+	position: absolute;
+	top: 7px;
+	left: 475px;
+	
+	bottom: 0px;
+	border-radius: 50%;
+	
+}
+
+/*_______________________________________________________________
+
+BUTTONS
+_________________________________________________________________
+*/
+
+.buttons {
+	width: 300px;
+	height: 100px;
+	margin: auto;
+	
+	position: relative;
+	top: 160px;
+}
+
+.btn:hover {
+	font-weight: 700;
+	color: black;
+}
+
+.buttons input[type="button"]{
+	display: inline;
+	position: relative;
+	border: 1px solid black;
+	float: middle;
+	padding: 10px;
+	background-color: #f2f2f2;
+	border: 1px none silver;
+	color: rgb(117,117,117);
+	font-weight: 600;
+	margin: 10px;
+	
+}
+	
+/*_______________________________________________________________
+
+FOOTER
+
+_________________________________________________________________
+*/
+
+footer {
+	display: block;
+	position: absolute;
+	color: black;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	vertical-align: middle;
+	background-color: rgba(0,0,0,0.1);
+	margin: 0 0;
+	
+	font-size: 15px;
+	
+}
+
+.footer-right:hover, .footer-left:hover {
+	text-decoration: underline;
+}
+
+.footer-left {
+	display: inline;
+	float: left;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	opacity: 0.8;
+}
+
+.footer-right {
+	display: inline;
+	float: right;
+	right: 7px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	vertical-align: middle;
+	opacity: 0.8;
+}
